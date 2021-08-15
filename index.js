@@ -25,7 +25,7 @@ function getDate()
       if (DD < numberOfDays[MM - 1])
       {
         if(isLeapYear(YYYY)){
-          console.log(chalk.red("\n Hurray!! You were born on a leap year"));
+          console.log(chalk.red("\n Hurray!! You were born on a leap year. \n You can share this on your social media."));
         }
         else{
             console.log("\n Ohh no !! You were not born on a leap year");
